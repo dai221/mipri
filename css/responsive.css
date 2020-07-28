@@ -10,13 +10,12 @@
 
   .setumei-gazou img{
     width: auto;
-    padding-top: 10px;
+    margin-top: 10px;
   }
 
   .itiran img{
     width: 300px;
     margin: 30px;
-    
   }
 
   .honoo img{
@@ -153,6 +152,7 @@
     width: auto;
     width: 100%;
     margin-top: 10px;
+    height: 350px !important;
   }
 
   .itiran img{
@@ -247,6 +247,26 @@
   .who{
     font-size: 22px;
   }}
+
+  @media(max-width:350px){
+    .grid{
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr;
+    }
+
+    .itiran img{
+      margin: 15px 0 0 0;
+    }
+
+    .honoo img{
+      height: 400px !important;
+    }
+
+    .main-title h2{
+      font-size: 19px;
+    }
+  }
 
 /* *は全ての要素に適応 */
 /* border-boxはwidthの合計にpaddingやborderを含む */
