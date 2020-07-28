@@ -1,0 +1,256 @@
+/* メディアクエリ */
+/* タブレット向け */
+@media(max-width:1000px){
+
+  .title-left img{
+    width: 200px;
+    height: 130px;
+    margin-top: 10px;
+  }
+
+  .setumei-gazou img{
+    width: auto;
+    padding-top: 10px;
+  }
+
+  .itiran img{
+    width: 300px;
+    margin: 30px;
+    
+  }
+
+  .honoo img{
+    max-width: 100%;
+  }
+
+  .foot-left img{
+    width: 80%;
+  }
+  
+  .foot-left2 img{
+    width: 80%;
+  }
+
+  .setumei{
+    margin-top: 50px;
+  }
+
+  .main-title h2{
+    font-size: 25px;
+  }
+
+  .hatu{
+    font-size: 25px;
+  }
+
+  .enter{
+    margin-bottom: 15px;
+  }
+
+  .online{
+    font-size: 30px;
+    padding: 0px 0px 30px 40px;
+  }
+
+  .sp_br{
+    display: inline-block;
+  }
+
+  .main-title{
+    height: 100%;
+    background-size:cover;
+    text-align: center;
+    padding:0 0 7% 0;
+  }
+
+  .url{
+    font-size: 18px;
+  }
+
+  .tokutyou{
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .memo-left2 h3{
+    font-size: 18px;
+  }
+
+  .memo-left2{
+    margin-top: 30px;
+  }
+
+  .mozi{
+    font-size: 18px !important;
+    /* padding-top: 30px; */
+    margin-bottom: 100px;
+    color: black !important;
+  }
+
+  .form li{
+    line-height: 2;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .dounyuu{
+    font-size: 18px;
+  }
+
+  .wrapper{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+  .who{
+    font-size: 25px;
+  }
+
+}
+
+@media(max-width:670px){
+  .wrapper{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+  }
+
+  .online{
+    font-size: 30px;
+    padding: 0;
+  }
+
+  .grid , .memo-left2 , .container, .container2 , .top-title{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .item{
+    width: 100%;
+  }
+
+  .item ,.setumei{
+    width: 100%;
+  }
+
+  .title-left img{
+    width: 300px;
+    height: 230px;
+    margin-top: 100px;
+  }
+
+  .setumei-gazou img{
+    width: auto;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .itiran img{
+    width: 100%;
+    width: 300px;
+  }
+
+  .foot-left img{
+    width: 100%;
+    margin: 15px 0;
+  }
+  
+  .foot-left2 img{
+    width: 80%;
+  }
+
+  .online{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .clear{
+    clear:left;
+  }
+
+
+  .setumei{
+    margin-top: 50px;
+  }
+
+  .main-title h2{
+    font-size: 22px;
+  }
+
+  .hatu{
+    font-size: 22px;
+  }
+
+  .enter{
+    margin-bottom: 15px;
+  }
+
+  .online{
+    font-size: 30px;
+  }
+
+  .sp_br{
+    display: inline-block;
+  }
+
+  .main-title{
+    height: 100%;
+    background-size:cover;
+    text-align: center;
+    padding:0 0 7% 0;
+  }
+
+  .url{
+    font-size: 18px;
+  }
+
+  .honoo{
+    margin-top: 350px;
+  }
+
+  .tokutyou{
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .memo-left2 h3{
+    font-size: 18px;
+  }
+
+  .mozi{
+    font-size: 18px !important;
+    /* padding-top: 30px; */
+    margin-bottom: 100px;
+    color: black !important;
+  }
+
+  .form li{
+    line-height: 2;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .dounyuu{
+    font-size: 18px;
+  }
+
+  .who{
+    font-size: 22px;
+  }}
+
+/* *は全ての要素に適応 */
+/* border-boxはwidthの合計にpaddingやborderを含む */
+/* 未然にレイアウト崩れを防ぐことができる */
+*{
+  box-sizing: border-box;
+}

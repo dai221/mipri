@@ -8,12 +8,12 @@
 
 .online{
   font-size: 45px;
-  padding: 160px 0 30px 0;
+  /* padding: 160px 100px 30px 0; */
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.title-left{
-  float: left;
+.top-title{
+  display: flex;
 }
 
 #home{
@@ -26,7 +26,7 @@
 
 .title-right{
   list-style: none;
-  margin: 10px 0px 0px 185px;
+  margin-top: 140px;
   font-size: 25px;
 }
 
@@ -34,6 +34,10 @@
   width: 300px;
   height: 230px;
   margin-top: 10px;
+}
+
+.sp_br{
+  display: none;
 }
 
 .who{
@@ -137,10 +141,14 @@
 
 .grid{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
-.memo-left2 img{
+.item{
+  width: 25%;
+}
+
+.memo-left2 img , .foot-left2 img{
   width: 250px;
   height: 430px;
   object-fit: cover;
@@ -162,7 +170,15 @@
 
 .memo-left2{
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+}
+
+.setumei{
+  width: 50%;
+}
+
+.setumei-gazou{
+  width: 50%;
 }
 
 .memo-left img{
@@ -249,7 +265,7 @@
   width: 400px;
   height: auto;
   max-width: inherit;
-  margin: 30px 0px 0px 70px;
+  margin: 30px 0px 0px 50px;
 }
 
 .hatu{
