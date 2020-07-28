@@ -7,11 +7,13 @@
 }
 
 .online{
-  font-size: 30px;
+  font-size: 45px;
+  padding: 160px 0 30px 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.top-title{
-  display: flex;
+.title-left{
+  float: left;
 }
 
 #home{
@@ -29,9 +31,14 @@
 }
 
 .title-left img{
-  width: 200px;
-  height: 130px;
+  width: 300px;
+  height: 230px;
   margin-top: 10px;
+}
+
+.who{
+  font-size: 30px;
+  padding:10px 0 70px 0;
 }
 
 .main-title{
@@ -39,7 +46,8 @@
   background-image: url(../img/749380.jpg);
   background-size:cover;
   text-align: center;
-  padding:7% 0;
+  padding:0 0 7% 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .fuchidori h2{
@@ -51,17 +59,15 @@
 }
 
 .main-title h2{
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  /* font-family: 'Kosugi Maru', sans-serif; */
   font-size: 35px;
-}
-
-.setumei span{
-  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .setumei h2{
   margin: 0;
+}
+
+.url{
+  font-size: 23px;
 }
 
 .balloon2-top {
@@ -114,7 +120,6 @@
 .memo{
   display: flex;
   justify-content: space-between;
-  /* padding: 0 8%; */
 }
 
 .memo-left{
@@ -127,7 +132,6 @@
   object-fit: cover;
   box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
   transition: all .2s ease-in-out;
-  /* cursor: pointer; */
   border-radius: 8px;
 }
 
@@ -142,15 +146,13 @@
   object-fit: cover;
   box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
   transition: all .2s ease-in-out;
-  /* cursor: pointer; */
   border-radius: 8px;
 }
 
 .tokutyou{
   font-size: 23px;
-  margin-top: 20px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  line-height: 1.9;
+  margin-top: 30px;
+  line-height: 1.6;
 }
 
 .tokutyou li{
@@ -169,7 +171,6 @@
   object-fit: cover;
   box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
   transition: all .2s ease-in-out;
-  /* cursor: pointer; */
   border-radius: 8px;
 }
 
@@ -177,35 +178,12 @@
   width: 200px;
 }
 
-/* 公式HPボタン */
-.btn-social-long-twitter {
-  color: #FFF;/*文字・アイコン色*/
-  border-radius: 7px;/*角丸に*/
-  display: inline-block;
-  height: 50px;/*高さ*/
-  width: 190px;/*幅*/
-  text-align: center;/*中身を中央寄せ*/
-  font-size: 25px;/*文字のサイズ*/
-  line-height: 50px;/*高さと合わせる*/
-  background: pink;
-  overflow: hidden;/*はみ出た部分を隠す*/
-  text-decoration:none;/*下線は消す*/
-  /* margin-top: 0px; */
+.memo-left2 h3{
+  font-size: 23px;
 }
 
-.btn-social-long-twitter .fa-twitter {
-  text-shadow: 2px 2px 0px #4287d6;
-  font-size: 30px;
-}
-
-.btn-social-long-twitter span {
-  display:inline-block;
-  transition: .5s;
-}
-
-.btn-social-long-twitter:hover span {
-  -webkit-transform: rotateX(360deg);
-  transform: rotateX(360deg);
+.url a{
+  color: blue;
 }
 
 .ribbon6 {
@@ -240,13 +218,13 @@
 
 .ribbon6{
   margin: 25px 0 10px 0;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .mozi{
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-size: 20px;
-  margin-top: 5px;
+  font-size: 23px !important;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  color: black !important;
 }
 
 
@@ -270,8 +248,6 @@
   left: 0;
   width: 400px;
   height: auto;
-  /* min-width: 100%;
-  min-height: 100%; */
   max-width: inherit;
   margin: 30px 0px 0px 70px;
 }
@@ -286,19 +262,25 @@
 }
 
 .foot{
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
-  /* display: flex; */
 }
 
 .foot h2{
-  font-size: 25px;
-  border-bottom: solid 2px #ddd;
+  border-top: solid 2px #ddd;
+  padding-top: 50px;
 }
 
 .container{
   display: flex;
-  margin-top: 10px;
+  margin-top: 50px;
+  justify-content: space-around;
+  font-size: 17px;
+}
+
+.container2{
+  display: flex;
+  margin-top: 50px;
   justify-content: space-between;
   font-size: 17px;
 }
@@ -309,8 +291,24 @@
 
 .form li{
   line-height: 2;
+  text-align: left;
+  font-size: 23px;
+}
+
+.foot-left img{
+  width: 450px;
+  height: auto;
+}
+
+.foot-left2 img{
+  width: 300px;
+  height: 400px;
 }
 
 .right{
   line-height: 2;
+}
+
+.dounyuu{
+  font-size: 23px;
 }
