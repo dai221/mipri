@@ -85,6 +85,7 @@
 .who{
   font-size: 30px;
   padding:10px 0 0px 0;
+  color: #ff69b4;
 }
 
 .main-title{
@@ -108,12 +109,33 @@
               -2px 0 0 #fff, 2px 0 0 #fff;
 }
 
+.online{
+  color: #ff69b4;
+  /* text-shadow:2px 2px 0 #ff69b4, -2px -2px 0 #ff69b4,
+              -2px 2px 0 #ff69b4, 2px -2px 0 #ff69b4,
+              0px 2px 0 #ff69b4,  0-2px 0 #ff69b4,
+              -2px 0 0 #ff69b4, 2px 0 0 #ff69b4; */
+}
+
 .main-title h2{
   font-size: 35px;
 }
 
 .setumei h2{
   margin: 0;
+}
+
+.setumei-gazou iframe{
+  margin: 0 0 100px 50px;
+}
+
+.setumei-gazou img{
+  height: 500px;
+  width: 300px;
+  margin: 0 0 0 150px;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  transition: all .2s ease-in-out;
+  border-radius: 8px;
 }
 
 .fas{
@@ -181,6 +203,15 @@
 }
 
 .item img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  transition: all .2s ease-in-out;
+  border-radius: 8px;
+}
+
+.item2 img{
   width: 150px;
   height: 200px;
   object-fit: cover;
@@ -189,13 +220,52 @@
   border-radius: 8px;
 }
 
+.item3 img{
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  transition: all .2s ease-in-out;
+  border-radius: 8px;
+}
+
+.item-left img, .item-right img{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  transition: all .2s ease-in-out;
+  border-radius: 8px;
+}
+
+.item2{
+  float: left;
+}
+
+.grid2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .grid{
   display: flex;
   /* justify-content: space-around; */
+  padding-top: 30px;
+  width: 80%;
 }
 
-.item{
-  width: 25%;
+.grid3{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.item ,.item2{
+  width: 100%;
+}
+
+.item2{
+  margin-top: 20px;
 }
 
 .memo-left2 img , .foot-left2 img{
@@ -207,28 +277,30 @@
   border-radius: 8px;
 }
 
+
 .tokutyou{
-  font-size: 23px;
-  margin-top: 30px;
+  font-size: 20px;
+  /* margin-top: 30px; */
   line-height: 1.6;
 }
 
 .tokutyou li{
   text-align: left;
-  margin-left: 30px;
+  /* margin-left: 350px; */
 }
 
 .memo-left2{
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
+  margin-bottom: 60px;
 }
 
 .setumei{
   width: 50%;
 }
 
-.setumei-gazou{
-  width: 50%;
+.nihon{
+  margin-top: 30px;
 }
 
 .memo-left img{
@@ -252,6 +324,8 @@
   color: blue;
 }
 
+
+
 .ribbon6 {
   display: inline-block;
   position: relative;
@@ -264,6 +338,10 @@
   color: #FFF;
   box-sizing: border-box;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.enter{
+  margin-top: 50px;
 }
 
 .ribbon6 h3 {
@@ -304,6 +382,38 @@
 
 }
 
+.step{
+  margin-top: 10px;
+  width: 400px;
+    color: #505050;/*文字色*/
+    padding: 0.5em;/*文字周りの余白*/
+    display: inline-block;/*おまじない*/
+    line-height: 1.3;/*行高*/
+    background: pink;/*背景色*/
+    vertical-align: middle;
+    border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+    text-align:left ;
+    font-size:20px;
+}
+
+.fa-arrow-circle-down{
+  margin: 0 12px;
+}
+
+.idou{
+  margin-left: 40px;
+}
+
+.step:before {
+    content: '●';
+    color: white;
+    margin-right: 8px;
+}
+
+.foot-left p{
+  text-align: left;
+}
+
 .itiran{
   position: relative;
 }
@@ -318,7 +428,7 @@
   margin: 30px 0px 0px 50px;
 }
 
-.hatu{
+.hatu , .hoka{
   color: #ff69b4;
   text-shadow:2px 2px 0 #fff, -2px -2px 0 #fff,
               -2px 2px 0 #fff, 2px -2px 0 #fff,

@@ -8,6 +8,17 @@
     margin-top: 10px;
   }
 
+  .setumei-gazou{
+    margin: 0;
+  }
+
+  .grid{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+  }
+
   .zisseki img{
     width: 100%;
   }
@@ -19,7 +30,7 @@
 
   .itiran img{
     width: 300px;
-    margin: 30px;
+    margin: 0 30px;
   }
 
   .honoo img{
@@ -35,7 +46,7 @@
   }
 
   .setumei{
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 
   .main-title h2{
@@ -52,7 +63,7 @@
 
   .online{
     font-size: 30px;
-    padding: 0px 0px 30px 40px;
+    padding: 20px 0px 30px 20px;
   }
 
   .sp_br{
@@ -71,8 +82,12 @@
   }
 
   .tokutyou{
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
+  }
+
+  .tokutyou li{
+    font-size: 14px;
   }
 
   .memo-left2 h3{
@@ -121,6 +136,25 @@
     padding: 0 4%;
   }
 
+  .foot-left2{
+    padding-bottom: 20px;
+  }
+
+  .grid3{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  .step{
+    width: 300px;
+  }
+
+  .foot-left{
+    padding-bottom: 20px;
+  }
+
   .online{
     font-size: 30px;
     padding: 0;
@@ -134,12 +168,15 @@
   .grid{
     display: grid;
     gap: 10px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* margin: 0 auto; */
+    width: 100%;
 
   }
 
   .item{
-    width: 100%;
+    /* width: 100%; */
+    /* margin-right: 50px; */
   }
 
   .item ,.setumei{
@@ -153,10 +190,11 @@
   }
 
   .setumei-gazou img{
+    margin: 0;
     width: auto;
-    width: 100%;
+    /* width: 100%; */
     margin-top: 10px;
-    height: 350px !important;
+    height: 450px !important;
   }
 
   .itiran img{
@@ -174,8 +212,7 @@
   }
 
   .online{
-    width: 100%;
-    margin-bottom: 20px;
+    /* width: 100%; */
   }
 
   .clear{
@@ -184,7 +221,8 @@
 
 
   .setumei{
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
   }
 
   .main-title h2{
@@ -197,10 +235,6 @@
 
   .enter{
     margin-bottom: 15px;
-  }
-
-  .online{
-    font-size: 30px;
   }
 
   .sp_br{
@@ -223,8 +257,15 @@
   }
 
   .tokutyou{
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;
+    margin-bottom: 50px;
+  }
+
+  .setumei-gazou iframe{
+    width: 300px;
+    height: 200px;
+    margin: 30px auto 50px auto;
   }
 
   .memo-left2 h3{
